@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="view_tree_todo" model="ir.ui.view">
+      <field name="name">view.tree.todo</field>
+      <field name="model">wb.todo</field>
+      <field name="arch" type="xml">
+            <tree string="">
+                    <field name="name" /> 
+                    <field name="status" />
+                     <field name="description"/>
+                    <field name="numberTasks"/>
+            </tree>
+
+      </field>
+  </record>
+      
+<!-- Contenido visul de los modulos   -->
+   <record id="view_form_todo" model="ir.ui.view">
+            <field name="name">view.form.todo</field>
+            <field name="model">wb.todo</field>
+            <field name="arch" type="xml">
+                <form string="Visita">
+                    <sheet>
+                     <h1>Agregar lista de tareas    </h1>
+                        <group name="group_top">
+                            <group name="group_left">
+                               <field name="name" string='Nombre' /> 
+                               <notebook>
+                                    <page name="description" string="Descripcion">
+                                        <group colspan="3">
+                                            <field name="description" nolabel="1"/>
+                                        </group>
+                                    </page>
+                               </notebook>
+                            </group>
+                            <group name="group_right">
+                                  <field name="status" string='Estado de la tarea  ' />
+                                 <field name="numberTasks" string='Numero de tareas'/> 
+                            </group>
+
+                        </group>
+                      
+                    </sheet>
+                </form>
+            </field>
+    </record> 
+   <!-- Interfaz de módulo  grafica -->
+   <record id="view_graph_todo" model="ir.ui.view">
+       <field name="name">view.graph.todo</field>
+       <field name="model">wb.todo</field>
+       <field name="arch" type="xml">
+           <graph string="Grafica de tareas" type="bar">
+                <field name="status"></field>
+                 <field name="numberTasks" type="measure"/>
+           </graph>
+       </field>
+   </record>
+
+  
+   <record id="action_view_todo" model="ir.actions.act_window">
+       <field name="type">ir.actions.act_window</field>
+       <field name="name">Lista de Tareas</field>
+       <field name="res_model">wb.todo</field>
+       <field name="view_mode">tree,form,graph</field>
+    
+   </record>
+<menuitem
+    id="model_todo"
+   
+    action='custom_modelo.action_view_todo'
+    sequence="10"/> 
+
+</odoo>
