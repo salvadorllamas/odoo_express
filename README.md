@@ -53,7 +53,7 @@ Una solución flexible y rápida para implementar multiples instancias de `Odoo`
 
 3. Espere a que se inicialice completamente, y visita `http://localhost:8070` o `http://host-ip:8070` (según corresponda).
 
-    <img src="resources/screenshot/odoo.png" alt="odoo" width="100%"/>
+    <img src="https://www.arsys.es/blog/file/uploads/2016/06/Qu%C3%A9-aporta-Odoo-a-mi-negocio.jpg" alt="odoo" width="100%"/>
 
 
 ## Detener y reiniciar una instancia de Odoo
@@ -98,7 +98,7 @@ Tenga en cuenta exponer nombres y puertos diferentes para cada proyecto (por eje
 
 2. Espere a que se inicialice completamente, y visita `http://localhost:85` o `http://host-ip:85` (según corresponda).
 
-    <img src="resources/screenshot/nginx_proxy.png" alt="odoo" width="100%"/>
+    <img src="https://miro.medium.com/max/1400/0*izxMW23L0acdNzrI.png" alt="odoo" width="100%"/>
 
 
 3. Inicie sesión en la interfaz de usuario de Admin
