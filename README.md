@@ -68,5 +68,5 @@ docker-compose down
 
 
 ## Mi web salvador llamas
-[web]:http://salvadorllamas.com
+http://salvadorllamas.com
 
