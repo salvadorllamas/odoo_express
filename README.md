@@ -1,6 +1,6 @@
 # Instalando Odoo con docker
 <p align="center">
-  <img src="resources/screenshot/odoo-docker.png" alt="odoo" width="200"/>
+  <img src="https://www.arsys.es/blog/file/uploads/2016/06/Qu%C3%A9-aporta-Odoo-a-mi-negocio.jpg" alt="odoo" width="200"/>
   <br><br>
 	<img src="https://img.shields.io/badge/version-1.1.2-green.svg?style=for-the-badge">
   <a href="https://www.digitalocean.com/?refcode=9f8258252636&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge">
