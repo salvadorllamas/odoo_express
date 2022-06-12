@@ -61,18 +61,6 @@ docker-compose down
         └── views.xml
     ```
 
-3. `$USER`: Cambia el propietario de addon recién creado, sino cambia el propietario no podrá editar el código fuente fuera del contenedor.
-    ```bash
-    sudo chown -R $USER:$USER odoo/addons/$ADDON
-    ```
-    Remplace el argumento `$ADDON`, por el nombre del módulo recien creado.
-
-
-4. `Restart`: Para que el nuevo módulo se pueda instalar desde el panel de administración del proycto `Odoo` debe de reiniciar el servicio.
-    ```bash
-    docker-compose restart
-    ```
-
 
 ## Dónde se almacenan los Datos
 
@@ -80,5 +68,5 @@ docker-compose down
 
 
 ## Mi web salvador llamas
-[web]:http://salvadorllamas.com
+http://salvadorllamas.com
 
