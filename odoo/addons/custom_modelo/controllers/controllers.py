@@ -15,6 +15,7 @@ class VisitController(http.Controller):
         except Exception as e:
             return Response(json.dumps({'error': str(e)}), content_type='application/json;charset=utf-8', status=505)
 
-    @http.route('/servesas', auth='public',website=True)
-    def contacto(self, **kw):
-         return 'hola has mandado servesas'+request.params['nombre']
+    # Template echo en react.js
+    @http.route('/app/pruebas', auth='public',website=True)
+    def pruebas(self, **kw):
+        return  http.request.render('custom_modelo.report_visit_pruebas',{})

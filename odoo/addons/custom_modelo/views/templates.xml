@@ -1,0 +1,18 @@
+<odoo>
+    <data>
+       <!-- Témplate de la web  de  odoo  -->
+        
+      
+        <!-- Integración de Módulo  React de producción   -->
+        <template id="report_visit_pruebas" name="Pruebas proyecto vue ">
+              
+            <div id="root"></div>
+            <!-- <t t-call="website.layout" />
+
+            <t /> -->
+            <link rel="apple-touch-icon" href="/custom_modelo/static/build/logo192.png" />
+            <script type="text/javascript" src="/custom_modelo/static/build/static/js/main.c03eca9d.js" />
+            <link href="/custom_modelo/static/build/static/css/main.073c9b0a.css" rel="stylesheet" />
+        </template>
+    </data>
+</odoo>

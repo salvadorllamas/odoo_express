@@ -1,6 +1,6 @@
 {
     
-    'name':"Lista tareas",
+    'name':"ModuloReact",
     'summary':"""
              Se encarga de agregar las tareas y estados de las mismas 
               """,
@@ -14,6 +14,7 @@
     'depens':['sale'],
     'data':[
         'views/views.xml',
+        'views/templates.xml',
         'security/security.xml',
         'reports/visit.xml',
        
